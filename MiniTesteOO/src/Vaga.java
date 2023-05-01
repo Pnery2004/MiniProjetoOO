@@ -3,8 +3,7 @@ public class Vaga {
 private String Empresa;
 private int Salariobase;
 private int JornadaDiaria;
-private String Nome;
-
+private String Funcao;
 public String getEmpresa() {
 	return Empresa;
 }
@@ -23,11 +22,13 @@ public int getJornadaDiaria() {
 public void setJornadaDiaria(int jornadaDiaria) {
 	JornadaDiaria = jornadaDiaria;
 }
-public String getNome() {
-	return Nome;
+public String getFuncao() {
+	return Funcao;
 }
-public void setNome(String nome) {
-	Nome = nome;
+public void setFuncao(String funcao) {
+	Funcao = funcao;
+}
+
 }
 
 	
@@ -36,4 +37,4 @@ public void setNome(String nome) {
 	
 	
 	
-}
+
