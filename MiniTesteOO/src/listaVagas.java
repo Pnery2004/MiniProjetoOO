@@ -23,20 +23,21 @@ public static void main(String[] args) {
 	 Vaga EngenheiroSeguranca = new Vaga();
 	 EngenheiroSeguranca.setSalariobase(5000);
 	 EngenheiroSeguranca.setJornadaDiaria(4);
-	 EngenheiroSeguranca.setEmpresa("Google");
+	 EngenheiroSeguranca.setEmpresa("Amazon");
 	 EngenheiroSeguranca.setFuncao("Engenheiro de segurança do Trabalho ");
 	
 	 
 	 Vaga GerenteRegional = new Vaga();
 	 GerenteRegional.setSalariobase(10000);
 	 GerenteRegional.setJornadaDiaria(10);
-	 GerenteRegional.setEmpresa("Amazon");
+	 GerenteRegional.setEmpresa("Microsoft");
 	 GerenteRegional.setFuncao("Gerente Regional ");
-	 
-	 
-	 
-	 
-	 
+	  
+	 System.out.println( Programador.toString());
+	 System.out.println( Programador2.toString());
+	 System.out.println( EngenheiroSoftware.toString());
+	 System.out.println( EngenheiroSeguranca.toString());
+	 System.out.println(  GerenteRegional.toString());
 	 
 	 
 	 
