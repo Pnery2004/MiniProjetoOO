@@ -1,27 +1,40 @@
 
 public abstract class Empresa {
-		 private static int CEP;
-		 private  static String Endereco;
-		 private static String CNPJ;
+		 private int CEP;
+		 private String endereco;
+		 private String CNPJ;
 		 
-		public int getCEP() {
-			return CEP;
+		 private Empresa(int CEP,String Endereco,String CNPJ, String endereco) {
+			 super();
+			 this.CEP=CEP;
+			 this.endereco=endereco;
+			 this.CNPJ=CNPJ;
+			 
+		 }
+		 
+		 public int getCEP() {
+			return this.CEP;
 		}
-		public static void setCEP(int cEP) {
-			CEP = cEP;
+
+		public void setCEP(int cEP) {
+			this.CEP = cEP;
 		}
+
 		public String getEndereco() {
-			return Endereco;
+			return this.endereco;
 		}
-		public static void setEndereco(String endereco) {
-			Endereco = endereco;
+
+		public void setEndereco(String endereco) {
+			this.endereco = endereco;
 		}
+
 		public String getCNPJ() {
-			return CNPJ;
+			return this.CNPJ;
 		}
-		public static void setCNPJ(String string) {
-			CNPJ = string;
-		}	
-		 
+
+		public void setCNPJ(String cNPJ) {
+			this.CNPJ = cNPJ;
 		}
+
+}
 
