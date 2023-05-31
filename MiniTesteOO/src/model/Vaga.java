@@ -1,20 +1,19 @@
+package model;
+public  abstract class Vaga {
 
-public class Vaga {
-
-	
 	private String empresa;
 	private int salarioBase;
 	private int jornadaDiaria;
 	private String funcao;
-	
-	
-public Vaga(String empresa,int salarioBase,int jornadaDiaria,String funcao) {
+
+
+	public Vaga(String empresa,int salarioBase,int jornadaDiaria,String funcao) {
 		super();
-			this.empresa=empresa;
-			this.salarioBase=salarioBase;
-			this.funcao=funcao;
-			this.jornadaDiaria=jornadaDiaria;
-			
+		this.empresa=empresa;
+		this.salarioBase=salarioBase;
+		this.funcao=funcao;
+		this.jornadaDiaria=jornadaDiaria;
+
 	}
 	public String getEmpresa() {
 		return this.empresa;
@@ -40,15 +39,10 @@ public Vaga(String empresa,int salarioBase,int jornadaDiaria,String funcao) {
 	public void setFuncao(String funcao) {
 		this.funcao = funcao;
 	}
+
+
 	
 	
-	
-	
-	
-	public static String [] listarVagas(String args []) {
-		return args;
-	
-	}
 	
 
 }
