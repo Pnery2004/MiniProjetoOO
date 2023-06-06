@@ -1,5 +1,5 @@
 package model;
-public  abstract class Vaga {
+public  class Vaga {
 
 	private String empresa;
 	private int salarioBase;
@@ -15,6 +15,7 @@ public  abstract class Vaga {
 		this.jornadaDiaria=jornadaDiaria;
 
 	}
+
 	public String getEmpresa() {
 		return this.empresa;
 	}

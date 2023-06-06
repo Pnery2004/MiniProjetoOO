@@ -1,5 +1,5 @@
 package model;
-public class Empresa {
+public  abstract class Empresa {
 	private int CEP;
 	private String endereco;
 	private String CNPJ;
