@@ -1,3 +1,10 @@
+/**
+ * Classe Vaga simula uma vaga de emprego oferecida por uma empresa
+ * @author Paulo Nery
+ * @author Paulo Andre
+ * @version 1.1
+ */
+
 package model;
 public  class Vaga {
 

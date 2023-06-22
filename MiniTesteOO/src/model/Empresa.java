@@ -1,3 +1,11 @@
+/**
+ * Representa a Empresa que oferta a vaga
+ * @author Paulo Nery
+ * @author Paulo Andre
+ * @version 1.1
+ */
+
+
 package model;
 public  abstract class Empresa {
 	private int CEP;
