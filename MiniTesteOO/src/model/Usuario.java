@@ -1,11 +1,20 @@
 /**
- * Usuario comum que so consegue ver as vagas
+ * Usuario comum que so consegue ver e pesquisar as vagas
+ * @author Paulo Andre
+ * @author Paulo Nery
+ * @version 1.1.2
  */
 package model;
 public  abstract class Usuario {
 	private String userName;
 	private String cpf;
 	private String nomeCompleto;
+	/**
+	 * Construtor da classe
+	 * @param userName
+	 * @param cpf
+	 * @param nomeCompleto
+	 */
 	public Usuario(String userName, String cpf,String nomeCompleto) {
 		super();
 		this.userName=userName;
