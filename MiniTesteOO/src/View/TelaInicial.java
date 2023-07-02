@@ -5,7 +5,7 @@
  * @author Paulo Andre
  * @version 1.1.3
  */
-package view;
+package View;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;

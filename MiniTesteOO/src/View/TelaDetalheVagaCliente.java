@@ -6,7 +6,7 @@
  * @author Paulo Nery
  * @version 1.1.3
  */
-package view;
+package View;
 
 import java.awt.Font;
 import javax.swing.JFrame;
@@ -50,11 +50,11 @@ public class TelaDetalheVagaCliente {
         valorFuncao = new JTextField(dados.getVaga()[pos].getFuncao(), 200);
         valorEmpresa = new JTextField(dados.getVaga()[pos].getEmpresa(), 200);
         valorJornadaDiaria = new JTextField(String.valueOf(dados.getVaga()[pos].getJornadaDiaria()), 200);
-        valorSalarioBase = new JTextField(String.valueOf(dados.getVaga()[pos].getSalarioBase()), 200);
+        valorSalarioBase = new JTextField(String.valueOf(dados.getVaga()[pos].getSalariobase()), 200);
 
         valorNome = new JTextField(dados.getEmpresa()[pos].getNome(), 200);
         valorEndereco = new JTextField(dados.getEmpresa()[pos].getEndereco(), 200);
-        valorCep = new JTextField(String.valueOf(dados.getEmpresa()[pos].getCep()), 200);
+        valorCep = new JTextField(String.valueOf(dados.getEmpresa()[pos].getCEP()), 200);
 
         titulo1.setFont(new Font("Arial", Font.BOLD, 20));
         titulo1.setBounds(60, 10, 200, 35);

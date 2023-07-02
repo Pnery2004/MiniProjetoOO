@@ -7,7 +7,7 @@
  * @author Paulo Nery
  * @version 1.1.3
  */
-package view;
+package View;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
