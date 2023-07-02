@@ -1,3 +1,9 @@
+/**
+ * Control da classe Vaga
+ * @author Paulo Nery
+ * @author Paulo Andre
+ * @version 1.1.3
+ */
 package control;
 
 import model.Vaga;

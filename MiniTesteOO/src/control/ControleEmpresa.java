@@ -1,3 +1,9 @@
+/**
+ * Control da classe Empresa
+ * @author Paulo Nery
+ * @author Paulo Andre
+ * @version 1.1.3
+ */
 package control;
 
 import model.Empresa;
