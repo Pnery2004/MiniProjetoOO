@@ -49,7 +49,7 @@ public class ControleVaga {
 	}
 
 	public String getSalarioBase(int i) {
-		String numSB = String.valueOf(v[i].getSalarioBase());
+		String numSB = String.valueOf(v[i].getSalariobase());
 		return numSB;
 	}
 

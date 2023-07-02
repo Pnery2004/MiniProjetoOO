@@ -44,7 +44,7 @@ public class ControleEmpresa {
 	}
 
 	public String getCep(int i) {
-		String numCEP = String.valueOf(e[i].getCep());
+		String numCEP = String.valueOf(e[i].getCEP());
 		return numCEP;
 	}
 
