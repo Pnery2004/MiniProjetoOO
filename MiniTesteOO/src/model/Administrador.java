@@ -6,19 +6,20 @@
  */
 package model;
 public class Administrador extends Usuario {
+
 	private int senhaCriadora;
 	/**
 	 * Construtor da classe
 	 * @param userName
 	 * @param cpf
 	 * @param nomeCompleto
+	 * @param senhaCriadora 
 	 * @param senhaCriadora
 	 */
-	public Administrador(String userName, String cpf, String nomeCompleto) {
+	
+	public Administrador(String userName, String cpf, String nomeCompleto, int senhaCriadora) {
+		super(userName, cpf, nomeCompleto);
 		this.senhaCriadora=senhaCriadora;
-		this.userName=userName;
-		this.cpf=cpf;
-		this.nomeCompleto=nomeCompleto;
 	}
 
 	public int getSenhaCriadora() {

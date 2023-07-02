@@ -23,6 +23,10 @@ public  class Vaga {
 
 	}
 
+	public Vaga(String empresa2, String string, int parseInt, int parseInt2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getEmpresa() {
 		return this.empresa;
 	}

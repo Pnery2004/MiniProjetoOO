@@ -26,6 +26,10 @@ public class Empresa {
 
 	}
 
+	public Empresa(String string, String string2, int parseInt) {
+	// TODO Auto-generated constructor stub
+}
+
 	public int getCEP() {
 		return this.CEP;
 	}
@@ -48,6 +52,11 @@ public class Empresa {
 
 	public void setCNPJ(String cNPJ) {
 		this.CNPJ = cNPJ;
+	}
+
+	public String getNome() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
