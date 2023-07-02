@@ -7,11 +7,18 @@
 
 
 package model;
-public  abstract class Empresa {
+public class Empresa {
 	private int CEP;
 	private String endereco;
 	private String CNPJ;
-
+/**
+ * Construtor da classe
+ * @param CEP
+ * @param Endereco
+ * @param CNPJ
+ * @param endereco
+ */
+	
 	public Empresa(int CEP,String Endereco,String CNPJ, String endereco) {
 		this.CEP=CEP;
 		this.endereco=endereco;
